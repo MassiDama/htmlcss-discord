@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- link del font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Fredoka:wght@300;400;500;600&family=Gabarito&family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Struttura Discord</title>
 </head>
 <body>
 
-    <!-- struttura header -->
+    <!-- struttura titolo main -->
     <header>
-            <nav class="nav-header">
+            <div class="nav-header">
                 <img src="img/logo.svg" alt="logo discord">
-                <a href="default.asp"> Scarica </a>
-                <a href="default.asp"> Perchè Discord </a>
-                <a href="default.asp"> Nitro </a>
-                <a href="default.asp"> Sicurezza </a>
-                <a href="default.asp"> Assistenza </a>
-                <button type="button">Accedi</button>
-            </nav>
+                <nav>
+                    <a href="default.asp"> Scarica </a>
+                    <a href="default.asp"> Perchè Discord </a>
+                    <a href="default.asp"> Nitro </a>
+                    <a href="default.asp"> Sicurezza </a>
+                    <a href="default.asp"> Assistenza </a>
+                </nav>
+                <button id="header-button" type="button">Accedi</button>
+            </div>
     </header>
 
     <!-- struttura main -->
@@ -28,9 +34,14 @@
         <section id="section-title">
             <div class="jumbo-tron">
                 <div class="jumbo-content">
-                    <h1>Il tuo posto per parlare</h1>
-                    <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica <br> mondiale, o semplicemente di un semplice gruppo di amici che vuole passare il tempo <br> assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso</p>
-                    <div>
+                    <div id="jumbo-title">
+                        <h1>Il tuo posto per parlare</h1>
+                    </div>
+                    <div class="textp">
+                        Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica <br> mondiale, o semplicemente di un semplice gruppo di amici che vuole passare il tempo <br> assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso
+                    </div>
+
+                    <div class="row-button">
                         <button type="button">Scarica per Mac</button> 
                         <button type="button">Apri Discord nel tuo browser</button>
                     </div>
@@ -49,10 +60,11 @@
                 <img src="img/item1.svg" alt="foto discord">
             </div>
             <div class="content">
-                <h2>Un luogo a <br> invito con tutto <br> lo spazio <br>necessario per parlare</h2>
-                <p>
+                <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                <div class="textp">
                     I server discord sono organizzati in <br>canali telematiciin cui puoi collaborare, <br>condividere o semplicemente parlare <br>della tua giornata senza intasare una <br>chat di gruppo.
-                </p>
+                </div>
+                
 
             </div>
         </section>
@@ -64,9 +76,9 @@
             </div>
             <div class="content">
                 <h2>Dove trovarsi è facile</h2>
-                <p>
-                    Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi instantaneamente senza dover chiamare.
-                </p>
+               <div class="textp">
+                Mettiti comodo in un canale vocale <br>quando hai tempo. Gli amici nel tuo <br>server possono vedere che sei lì e unirsi <br>instantaneamente senza dover chiamare.
+               </div>
 
             </div>
         </section>
@@ -78,35 +90,73 @@
             </div>
             <div class="content">
                 <h2>Da pochi a un fandom</h2>
-                <p>
+                <div class="textp">
                     Dai inizio a una community di qualsiasi dimensione con strumentidi moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.
-                </p>
+                </div>
             </div>
         </section>
 
         <!-- quarta sezione -->
-        <section class="grigio-grande">
-            <div class="verde">
+        <section class="tecnology-content">
+            <div class="content-t">
+                <h2>Tecnologia affidabile per tenersi in contatto </h2>
+                <div class="textp">
+                    Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
+                </div>
+                <img src="img/item4-big.svg" alt="foto discord">
+                <h3>Pronto a iniziare la tua avventura?</h3>
+                <button type="button">Scarica per Mac</button>
+                
 
             </div>
         </section>
 
-        <section class="sfondo-nero">
-            <div class="rosa-scuro">
-
+        <!-- inizio footer "da cambiare" -->
+        <section class="infobox">
+            <div class="info">
+                <h3>Il tuo posto per parlare</h3>
+                <div class="lenguage"><img src="img/ita.png" alt="bandiera italia"></div>
+                <div class="social"></div>
             </div>
-            <div class="celeste">
-
+            <div class="route-section">
+                <h5>Prodotto</h5>
+                <a href="default.asp"> Scarica </a>
+                <a href="default.asp"> Perchè Discord</a>
+                <a href="default.asp"> Nitro </a>
+                <a href="default.asp"> Sicurezza  </a>
+                <a href="default.asp"> Assistenza </a>
             </div>
-            <div class="celeste">
-
+            <div class="route-section">
+                <h5>Compagnia</h5>
+                <a href="default.asp"> Chi siamo </a>
+                <a href="default.asp"> Lavora con noi</a>
+                <a href="default.asp"> Marchio </a>
+                <a href="default.asp"> Redazione </a>
+                <a href="default.asp"> Negozio </a>
             </div>
-            <div class="celeste">
-
+            <div class="route-section">
+                <h5>Prodotto</h5>
+                <a href="default.asp"> Scarica </a>
+                <a href="default.asp"> Perchè Discord</a>
+                <a href="default.asp"> Nitro </a>
+                <a href="default.asp"> Sicurezza  </a>
+                <a href="default.asp"> Assistenza </a>
+                <a href="default.asp"> Scarica </a>
+                <a href="default.asp"> Perchè Discord</a>
+                <a href="default.asp"> Nitro </a>
+                <a href="default.asp"> Sicurezza  </a>
+                <a href="default.asp"> Assistenza </a>
             </div>
-            <div class="celeste">
-
+            <div class="route-section">
+                <h5>Prodotto</h5>
+                <a href="default.asp"> Scarica </a>
+                <a href="default.asp"> Perchè Discord</a>
+                <a href="default.asp"> Nitro </a>
+                <a href="default.asp"> Sicurezza  </a>
+                <a href="default.asp"> Assistenza </a>
             </div>
+
+              
         </section>
     </main>
 
@@ -116,11 +166,11 @@
            
             <div id="nav-footer">
                 <div id="logo-footer">
-                    <span>Logo</span>
+                    <img src="img/logo.svg" alt="logo footer">
                 </div>
                
                 <div id="bottone-footer">
-                    <span>Bottone</span>
+                    <button type="button">Registrati</button>
                 </div>    
             </div>
 
