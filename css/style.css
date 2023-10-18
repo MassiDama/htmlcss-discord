@@ -101,7 +101,6 @@ button {
 
 .img-content {
     margin: 40px 0;
-    max-width: 30%;
 }
 
 .content {
@@ -125,6 +124,7 @@ button {
     background-color: hsl(0deg 0% 96.47%);
     /* min-height: 500px; */
 }
+
 
 .main-content-reverse .content {
     order: -1;
